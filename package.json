@@ -1,0 +1,14 @@
+{
+  "name": "elasticsearch-module",
+  "version": "1.0.0",
+  "description": " A wrapper around functions of elasticsearch.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Chang <wahengchang@gmail.com>",
+  "license": "ISC"
+}
