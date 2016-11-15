@@ -24,12 +24,9 @@ esModule.init({
 
 ```
 
-## Usage
+## Add index
 
 ```js
- ### Add index
-
-
 var className = 'product';
 var data = { 
     "objectId": "0001", 
@@ -48,12 +45,9 @@ esModule.add(className, data).then(function(result){
 ```
 
 
-## Usage
+## Search
 
 ```js
- ### Add index
-
-
 var className = 'product';
 var _search = 'pretty' -d' { "query": { "fuzzy" : { "description" : "The solar system", "fuzziness": 2 } } }';
 //var _search = 'q=body:Search';
